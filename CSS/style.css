@@ -72,32 +72,38 @@ main{
 
 .first-v{
     display: flex;
+    flex-wrap: wrap;
+    align-items: space-around;
+    justify-content: space-around;
+}
+
+.first-v_text{
+    margin-top: 150px;
 }
 
 .name{
     width: 100%;
     text-align: left;
     font-size:50px;
-    padding: 150px 0px 0px 200px;
     letter-spacing: 0px;
 }
 
 .name-line{
     width:450px;
-    margin-left: 150px;
 }
 
 .first-v_profile{
-    width: 100%;
+    width: 500px;
     text-align: left;
     font-size: 20px;
     letter-spacing: 0px;
     line-height: 25px;
-    padding: 15px 0px 0px 250px;
+    padding-left: 20%;
+    padding-top: 20px;
 }
 
 .first-v_image{
-    padding:80px 50px 10px 100px;
+    margin-top: 100px;
 }
 
 /* about */
@@ -108,18 +114,25 @@ main{
 }
 
 .about-profile{
-    width:600px;
-    height:250px;
     letter-spacing: 0px;
-    background-color: #CDDFE3;
-    margin-left: 300px;
-    margin-top: 50px;
 }
 
 .about-name ul{
     list-style: none;
     font-size: 20px;
-    padding-top: 45px;
+}
+
+.about-name{
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width:500px;
+    height:200px;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-flow: column;
+    background-color: #CDDFE3;
 }
 
 .eng-profile{
@@ -138,8 +151,13 @@ main{
     outline-color: #262626;
     outline-width: 0.5px;
     font-size: 24px;
-    margin:30px 100px 0px 530px;
     box-shadow: 5px 5px 0 0 rgba(125,125,125,0.5);
+}
+
+.resume-button{
+    margin-left: 50%;
+    margin-top: -20px;
+    padding-left: 30px;
 }
 
 .projects-title{
