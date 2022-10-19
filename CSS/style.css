@@ -17,10 +17,6 @@ body{
     margin: 0 auto;
 }
 
-p a:hover{
-    opacity:0.5;
-    transition:0.3s;
-}
 
 /* header */
 header{
@@ -62,7 +58,7 @@ header{
     list-style: none;
     padding-left: 0px;
     padding-right: 56px;
-    color: #fff;
+    color: #ffffff;
     vertical-align: middle;
 }
 
@@ -163,12 +159,19 @@ main{
 }
 
 .projects-list li{
-    width:30%;
+    width:300px;
     display:flex;
     flex-flow: column;
     justify-content: center;
     align-items: center;
     margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.projects-list a:hover{
+    opacity:0.5;
+    transition:0.3s;
 }
 
 .activities-title{

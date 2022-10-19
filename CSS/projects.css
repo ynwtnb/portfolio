@@ -61,10 +61,41 @@ header{
     vertical-align: middle;
 }
 
+.project-period{
+    letter-spacing: 0px;
+    font-size:20px;
+    text-align: center;
+}
+
 .project-title{
     font-size: 36px;
     text-align: center;
-    padding-top: 50px;
+    padding-top: 100px;
+}
+
+.project-thumbnail{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.project-type{
+    text-align: center;
+    letter-spacing: 0px;
+    font-size: 20px;
+}
+
+.project-section{
+    text-align: center;
+}
+
+.project-section-title{
+    font-size: 25px;
+    margin-top: 50px;
+}
+
+.section-contents{
+    letter-spacing: 0px;
+    font-size: 20px;
 }
 
 /* first-v */
