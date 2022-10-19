@@ -1,0 +1,199 @@
+*{
+    /* padding,borderが要素の中に入る */
+    box-sizing:border-box;
+}
+
+ul{
+    /* リストの・を消す */
+    margin:0;
+}
+
+a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+body{
+    margin: 0 auto;
+}
+
+p a:hover{
+    opacity:0.5;
+    transition:0.3s;
+}
+
+/* header */
+header{
+    position: fixed;
+    background-color: #BBAFA3;
+    outline: none;
+    width: 100%;
+    height: 40px;
+    margin:0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-title{
+    color:#fff;
+    padding: 0px 0px 0px 56px;
+    font-family: operetta-52, serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 24px;
+    vertical-align: middle;
+    letter-spacing: 2.4px;
+}
+
+.header-content{
+    padding: 0px 0px;
+}
+
+.header-content ul{
+    font-family: operetta-52, serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 24px;
+    display: flex;
+    letter-spacing: 2.4px;
+}
+
+.header-content li{
+    list-style: none;
+    padding-left: 0px;
+    padding-right: 56px;
+    color: #fff;
+    vertical-align: middle;
+}
+
+/* first-v */
+
+main{
+    font-family: operetta-52, serif;
+    letter-spacing: 7px;
+    color: #262626;
+}
+
+.first-v{
+    display: flex;
+}
+
+.name{
+    width: 100%;
+    text-align: left;
+    font-size:50px;
+    padding: 150px 0px 0px 200px;
+    letter-spacing: 0px;
+}
+
+.name-line{
+    width:450px;
+    margin-left: 150px;
+}
+
+.first-v_profile{
+    width: 100%;
+    text-align: left;
+    font-size: 20px;
+    letter-spacing: 0px;
+    line-height: 25px;
+    padding: 15px 0px 0px 250px;
+}
+
+.first-v_image{
+    padding:80px 50px 10px 100px;
+}
+
+/* about */
+.about-title{
+    font-size: 36px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.about-profile{
+    width:600px;
+    height:250px;
+    letter-spacing: 0px;
+    background-color: #CDDFE3;
+    margin-left: 300px;
+    margin-top: 50px;
+}
+
+.about-name ul{
+    list-style: none;
+    font-size: 20px;
+    padding-top: 45px;
+}
+
+.eng-profile{
+    list-style: none;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.resume{
+    width: 350px;
+    height:70px;
+    background-color: transparent;
+    font-family: operetta-52, serif;
+    letter-spacing: 7px;
+    color: #262626;
+    outline-color: #262626;
+    outline-width: 0.5px;
+    font-size: 24px;
+    margin:30px 100px 0px 530px;
+    box-shadow: 5px 5px 0 0 rgba(125,125,125,0.5);
+}
+
+.projects-title{
+    font-size: 36px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.projects-list{
+    letter-spacing: 0px;
+    font-size: 20px;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: space-around;
+}
+
+.projects-list li{
+    width:30%;
+    display:flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.activities-title{
+    font-size: 36px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.contact-title{
+    font-size: 36px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.contact-contents{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-info{
+    font-size: 20px;
+    letter-spacing: 0px;
+    list-style: none;
+    text-align: left;
+    margin-top: 30px;
+    margin-bottom: 200px;
+}

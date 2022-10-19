@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yuna Watanabe Portofolio</title>
+    <link rel="stylesheet" href = "CSS/style.css">
+    <link rel="stylesheet" href="https://use.typekit.net/pdk0ggh.css">
+    <script>
+        (function(d) {
+          var config = {
+            kitId: 'mwb8eri',
+            scriptTimeout: 3000,
+            async: true
+          },
+          h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+        })(document);
+      </script>
+</head>
+
+<body>
+    <header>
+        <div class="header-title">Yuna Watanabe</div>
+        <nav class="header-content">
+            <ul>
+                <li><a href='#about-title-link'>About me</a></li>
+                <li><a href='#projects-title-link'>Projects</a></li>
+                <li><a href="#activities-title-link">Activities</a></li>
+                <li><a href="#contact-title-link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="first-v">
+            <div class="first-v_text">
+                <div class="name">Hi, I'm Yuna.</div>
+                <hr class="name-line">
+                <div class="first-v_profile">
+                    <div class="aboutme">I am interested in how technologies can change our perception, emotion, and behavior.
+                        I conducted research about communication-support technologies in my undergraduate studies. 
+                        I am passionate about developing tools to support people control their anxiety and stress.
+                    </div>
+                </div>
+            </div>
+            <div class="first-v_image">
+                <img src="img/Profile.jpg" width=450px>
+            </div>
+        </div>
+
+        <!-- about -->
+        <div class="about">
+            <section id="about-title-link"><div class="about-title">About me</div></section>
+            <hr class="about-line" width=250px>
+            <div class="about-profile">
+                <div class="about-name">
+                    <ul>
+                        <li class="eng-name">Yuna Watanabe</li>
+                    </ul>
+                    <ul class="eng-profile">
+                        <li>The University of Tokyo</li>
+                        <li>Information Science</li>
+                    </ul>
+                </div>
+                <button class="resume" onclick="location.href='https://drive.google.com/file/d/1RnSJ0DMJt1nicTrkWfZzvWHAUcJyszuY/view?usp=sharing'">Resume</button>
+            </div>
+        </div>
+
+        <!-- works -->
+        <div class="projects">
+            <section id="projects-title-link"><div class="projects-title">Projects</div></section>
+            <hr class="projects-line" width=250px>
+            <div class="projects-contents">
+                <ul class="projects-list">
+                    <li class="virtual-coembodiment">
+                        <p><a href='virtual-coembodiment.html'><img src="img/virtual-coembodiment.jpg" height="200px"></a></p>
+                        <sub>Virtual Co-embodiment</sub>
+                    </li>
+                    <li class="tleap">
+                        <img src="img/tleap.jpg" height="200px">
+                        <sub>T-Leap</sub>
+                    </li>
+                    <li class="synchrobot">
+                        <img src="img/synchrobot.jpg" height="200px">
+                        <sub>Synchrobot</sub>
+                    </li>
+                    <li class="pseudo-biofeedback">
+                        <img src="img/Pseudo-biofeedback.jpg" height="200px">
+                        <sub>Pseudo Biofeedback</sub>
+                    </li>
+                    <li class="bdrum">
+                        <img src="img/bdrum.JPG" height="200px">
+                        <sub>BDrum</sub>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- activities -->
+        <div class="activities">
+            <section id="activities-title-link"><div class="activities-title">Activities</div></section>
+            <hr class="activities-line" width="250px">
+        </div>
+
+        <!-- contact -->
+        <div class="contact">
+            <section id="contact-title-link"><div class="contact-title">Contact</div></section>
+            <hr class="contact-line" width=250px>
+            <div class="contact-contents">
+                <ul class="contact-info">
+                    <li>Yuna Watanabe</li>
+                    <li>email: yuna-watanabe1923 [at] g.ecc.u-tokyo.ac.jp</li>
+                    <li>tel: (+81) 80-9181-5149</li>
+                </ul>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

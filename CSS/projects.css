@@ -1,0 +1,77 @@
+*{
+    /* padding,borderが要素の中に入る */
+    box-sizing:border-box;
+}
+
+ul{
+    /* リストの・を消す */
+    margin:0;
+}
+
+a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+body{
+    margin: 0 auto;
+}
+
+/* header */
+header{
+    position: fixed;
+    background-color: #BBAFA3;
+    outline: none;
+    width: 100%;
+    height: 40px;
+    margin:0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-title{
+    color:#fff;
+    padding: 0px 0px 0px 56px;
+    font-family: operetta-52, serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 24px;
+    vertical-align: middle;
+    letter-spacing: 2.4px;
+}
+
+.header-content{
+    padding: 0px 0px;
+}
+
+.header-content ul{
+    font-family: operetta-52, serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 24px;
+    display: flex;
+    letter-spacing: 2.4px;
+}
+
+.header-content li{
+    list-style: none;
+    padding-left: 0px;
+    padding-right: 56px;
+    color: #fff;
+    vertical-align: middle;
+}
+
+.project-title{
+    font-size: 36px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+/* first-v */
+
+main{
+    font-family: operetta-52, serif;
+    letter-spacing: 7px;
+    color: #262626;
+}
+
