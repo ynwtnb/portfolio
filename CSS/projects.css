@@ -61,6 +61,30 @@ header{
     vertical-align: middle;
 }
 
+@media screen and (max-width: 1010px) {
+	/* 480px以下に適用されるCSS（スマホ用） */
+    .header-content ul{
+        font-size: 20px;
+        max-width: 70%;
+    }
+
+    .header-content li{
+        padding-left: 1px;
+        padding-right: 5%;
+    }
+
+    .header-title{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+	/* 700px以下に適用されるCSS（スマホ用） */
+    .header-content{
+        display: none;
+    }
+}
+
 .project-period{
     letter-spacing: 0px;
     font-size:20px;
@@ -76,6 +100,11 @@ header{
 .project-thumbnail{
     text-align: center;
     margin-top: 50px;
+}
+
+.project-thumbnail img{
+    width: 70%;
+    max-width: 500px;
 }
 
 .project-type{

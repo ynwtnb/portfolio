@@ -62,6 +62,29 @@ header{
     vertical-align: middle;
 }
 
+@media screen and (max-width: 1010px) {
+	/* 480px以下に適用されるCSS（スマホ用） */
+    .header-content ul{
+        font-size: 20px;
+        max-width: 70%;
+    }
+
+    .header-content li{
+        padding-left: 1px;
+        padding-right: 5%;
+    }
+
+    .header-title{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+	/* 700px以下に適用されるCSS（スマホ用） */
+    .header-content{
+        display: none;
+    }
+}
 /* first-v */
 
 main{
@@ -106,6 +129,46 @@ main{
     margin-top: 100px;
 }
 
+.first-v_image img{
+    width: 450px;
+}
+
+@media screen and (max-width: 480px) {
+	/* 480px以下に適用されるCSS（スマホ用） */
+    .first-v{
+        max-width: 100%;
+        display: flex;
+        flex-flow: column;
+        align-items: space-around;
+        justify-content: space-around;
+    }
+    
+    .name{
+        font-size: 40px;
+        margin-left: 10%;
+    }
+
+    .name-line{
+        max-width: 350px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .first-v_image{
+        text-align: center;
+    }
+
+    .first-v_image img{
+        max-width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .first-v_profile{
+        max-width: 95%;
+    }
+}
+
 /* about */
 .about-title{
     font-size: 36px;
@@ -135,6 +198,13 @@ main{
     background-color: #CDDFE3;
 }
 
+@media screen and (max-width: 480px) {
+	/* 480px以下に適用されるCSS（スマホ用） */
+    .about-name{
+        max-width:90%;
+    }
+}
+
 .eng-profile{
     list-style: none;
     font-weight: 400;
@@ -160,6 +230,41 @@ main{
     padding-left: 30px;
 }
 
+@media screen and (max-width: 480px) {
+	/* 480px以下に適用されるCSS（スマホ用） */
+    .resume{
+        text-align: center;
+        width: 60%;
+        height:70px;
+        background-color: transparent;
+        font-family: operetta-52, serif;
+        letter-spacing: 7px;
+        color: #262626;
+        outline-color: #262626;
+        outline-width: 0.5px;
+        font-size: 24px;
+        box-shadow: 5px 5px 0 0 rgba(125,125,125,0.5);
+    }
+
+    .resume-button{
+        margin-left: auto;
+        margin-right:auto;
+        margin-top: -20px;
+        padding-left: 0px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 836px) {
+    .resume-button{
+        margin-left: auto;
+        margin-right:auto;
+        margin-top: -20px;
+        padding-left: 0px;
+        text-align: center;
+    }
+}
+
 .projects-title{
     font-size: 36px;
     text-align: center;
@@ -174,6 +279,7 @@ main{
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: space-around;
+    padding-left: 0px;
 }
 
 .projects-list li{
@@ -185,6 +291,31 @@ main{
     margin-top: 50px;
     margin-left: 50px;
     margin-right: 50px;
+}
+
+@media screen and (max-width: 480px) {
+	/* 480px以下に適用されるCSS（スマホ用） */
+    .projects-list{
+        max-width: 1000%;
+        letter-spacing: 0px;
+        font-size: 20px;
+        list-style: none;
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .projects-list li{
+        max-width:100%;
+        display:flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
 }
 
 .projects-list a:hover{
