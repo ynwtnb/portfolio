@@ -116,6 +116,8 @@ header{
 
 .project-section{
     text-align: center;
+    width:70%;
+    margin: 0 auto;
 }
 
 .project-section-title{
@@ -126,6 +128,25 @@ header{
 .section-contents{
     letter-spacing: 0px;
     font-size: 20px;
+    overflow-wrap: normal;
+}
+
+p{
+    overflow-wrap: break-word;
+}
+
+.keywords{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.tag{
+    background-color:#CDDFE3;
+    margin: 10px 10px;
+    padding: 5px 10px;
+    border-radius: 10px 10px 10px 10px;
 }
 
 /* first-v */
