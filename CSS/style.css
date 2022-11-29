@@ -14,7 +14,7 @@ a{
 
 body{
     margin: 0 auto;
-    font-family: Baskerville,Baskerville Old Face,Hoefler Text,Garamond,Times New Roman,serif; 
+    font-family: serif; 
 }
 
 
@@ -38,6 +38,7 @@ header{
     font-style: normal;
     font-size: 24px;
     letter-spacing: 2.0px;
+    margin-top: 5px;
 }
 
 .header-content ul{
@@ -47,6 +48,7 @@ header{
     display: flex;
     flex-flow: row;
     letter-spacing: 2.0px;
+    margin-top: 5px;
 }
 
 .header-content li{
@@ -87,7 +89,7 @@ header{
 /* first-v */
 
 main{
-    font-family: Baskerville,Baskerville Old Face,Hoefler Text,Garamond,Times New Roman,serif; 
+    font-family: serif; 
     color: #262626;
     font-size: 18px;
 }
@@ -277,6 +279,19 @@ main{
     padding-top: 100px;
 }
 
+.feature{
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    padding: 20px 10% 0px 10%;
+}
+
+.intro{
+    width: 100%;
+    text-align: center;
+    padding: 20px 10% 50px 10%;
+}
+
 .projects-list{
     letter-spacing: 0px;
     font-size: 25px;
@@ -289,12 +304,13 @@ main{
 }
 
 .projects-list li{
-    width:300px;
+    width:320px;
     display:flex;
     flex-flow: column;
     justify-content: center;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 0px;
+    margin-bottom: 100px;
     margin-left: 50px;
     margin-right: 50px;
 }
@@ -318,7 +334,8 @@ main{
         flex-flow: column;
         justify-content: center;
         align-items: center;
-        margin-top: 50px;
+        margin-top: 0px;
+        margin-bottom: 100px;
         margin-left: 5%;
         margin-right: 5%;
     }
@@ -329,9 +346,177 @@ main{
     transition:0.3s;
 }
 
+.project-exp{
+    font-size: 15px;
+    color: #808080;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.lab-tag-SPIN {
+    display: inline-block;
+    position: relative;
+    height: 30px;
+    line-height: 30px;
+    width: 280px;
+    text-align: left;
+    padding: 0 40px 0 18px;
+    font-size: 18px;
+    background: #efcd7e;
+    color: #FFF;
+    box-sizing: border-box;
+    left: -50px;
+    margin-bottom: 10px;
+  }
+  
+.lab-tag-SPIN:after {
+position: absolute;
+content: '';
+width: 0px;
+height: 0px;
+z-index: 1;
+}
+
+.lab-tag-SPIN:after {
+top: 0;
+right: 0;
+border-width: 15px 15px 15px 0px;
+border-color: transparent #fff transparent transparent;
+border-style: solid;
+}
+
+.lab-tag-HAL {
+    display: inline-block;
+    position: relative;
+    height: 30px;
+    line-height: 30px;
+    width: 300px;
+    text-align: left;
+    padding: 0 40px 0 18px;
+    font-size: 18px;
+    background: #BBAFA3;
+    color: #FFF;
+    box-sizing: border-box;
+    left: -50px;
+    margin-bottom: 10px;
+}
+  
+.lab-tag-HAL:after {
+position: absolute;
+content: '';
+width: 0px;
+height: 0px;
+z-index: 1;
+}
+
+.lab-tag-HAL:after {
+top: 0;
+right: 0;
+border-width: 15px 15px 15px 0px;
+border-color: transparent #fff transparent transparent;
+border-style: solid;
+}
+
+.lab-tag-ISL {
+    display: inline-block;
+    position: relative;
+    height: 30px;
+    line-height: 30px;
+    width: 280px;
+    text-align: left;
+    padding: 0 40px 0 18px;
+    font-size: 18px;
+    background: #aad0d8;
+    color: #FFF;
+    box-sizing: border-box;
+    left: -50px;
+    margin-bottom: 10px;
+  }
+  
+.lab-tag-ISL:after {
+position: absolute;
+content: '';
+width: 0px;
+height: 0px;
+z-index: 1;
+}
+
+.lab-tag-ISL:after {
+top: 0;
+right: 0;
+border-width: 15px 15px 15px 0px;
+border-color: transparent #fff transparent transparent;
+border-style: solid;
+}
+
+.lab-tag-CIL {
+    display: inline-block;
+    position: relative;
+    height: 30px;
+    line-height: 30px;
+    width: 280px;
+    text-align: left;
+    padding: 0 40px 0 18px;
+    font-size: 18px;
+    background: #bd8fa8;
+    color: #FFF;
+    box-sizing: border-box;
+    left: -50px;
+    margin-bottom: 10px;
+}
+  
+.lab-tag-CIL:after {
+    position: absolute;
+    content: '';
+    width: 0px;
+    height: 0px;
+    z-index: 1;
+}
+
+.lab-tag-CIL:after {
+    top: 0;
+    right: 0;
+    border-width: 15px 15px 15px 0px;
+    border-color: transparent #fff transparent transparent;
+    border-style: solid;
+}
+
+.lab-tag-CW {
+    display: inline-block;
+    position: relative;
+    height: 30px;
+    line-height: 30px;
+    width: 280px;
+    text-align: left;
+    padding: 0 40px 0 18px;
+    font-size: 18px;
+    background: #7e737d;
+    color: #FFF;
+    box-sizing: border-box;
+    left: -50px;
+    margin-bottom: 10px;
+  }
+  
+.lab-tag-CW:after {
+    position: absolute;
+    content: '';
+    width: 0px;
+    height: 0px;
+    z-index: 1;
+}
+
+.lab-tag-CW:after {
+    top: 0;
+    right: 0;
+    border-width: 15px 15px 15px 0px;
+    border-color: transparent #fff transparent transparent;
+    border-style: solid;
+}
+
+
 .activities{
     background-color: #CDDFE3;
-    margin-top: 100px;
+    margin-top: 0px;
     padding-bottom: 20px;
 }
 
@@ -354,16 +539,18 @@ main{
     justify-content: space-around;
     align-items: space-around;
     padding-left: 0px;
-    padding-bottom: 50px;
 }
 
 .activity{
-    margin-top: 50px;
+    margin-top: 0px;
+    margin-bottom: 50px;
     margin-left: 10px;
     margin-right: 10px;
     overflow: hidden;
     position: relative;
     text-align: center;
+    display: flex;
+    flex-flow: column;
 }
 
 .activity-title{
@@ -394,7 +581,6 @@ main{
     filter: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='a' x='0' y='0' width='1' height='1' color-interpolation-filters='sRGB'%3E%3CfeGaussianBlur stdDeviation='10' result='b'/%3E%3CfeMorphology operator='dilate' radius='10'/%3E%3CfeMerge%3E%3CfeMergeNode/%3E%3CfeMergeNode in='b'/%3E%3C/feMerge%3E%3C/filter%3E%3C/svg%3E#a");
     transition: 10s;
 }
-
 
 .activity-mask{
     width: 100%;

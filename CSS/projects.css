@@ -15,7 +15,7 @@ a{
 
 body{
     margin: 0 auto;
-    font-family: Baskerville,Baskerville Old Face,Hoefler Text,Garamond,Times New Roman,serif; 
+    font-family: serif; 
 }
 
 /* header */
@@ -39,6 +39,7 @@ header{
     font-style: normal;
     font-size: 24px;
     letter-spacing: 2.0px;
+    margin-top: 5px;
 }
 
 .header-content ul{
@@ -48,6 +49,7 @@ header{
     display: flex;
     flex-flow: row;
     letter-spacing: 2.0px;
+    margin-top: 5px;
 }
 
 .header-content li{
@@ -86,6 +88,11 @@ header{
     }
 }
 
+.project-top{
+    background-color: #CDDFE3;
+    padding-bottom: 50px;
+}
+
 .project-period{
     letter-spacing: 0px;
     font-size:20px;
@@ -106,12 +113,14 @@ header{
 .project-thumbnail img{
     width: 70%;
     max-width: 500px;
+    min-width: 350px;
 }
 
 .project-type{
     text-align: center;
     letter-spacing: 0px;
     font-size: 20px;
+    margin-top: 10px;
 }
 
 .project-section{
@@ -126,6 +135,7 @@ header{
 }
 
 .section-contents{
+    text-align: left;
     letter-spacing: 0px;
     font-size: 20px;
     overflow-wrap: normal;
@@ -152,7 +162,8 @@ p{
 /* first-v */
 
 main{
-    font-family: Baskerville,Baskerville Old Face,Hoefler Text,Garamond,Times New Roman,serif; 
+    font-family: serif; 
     color: #262626;
 }
 
+.highlight { background-color:#CDDFE3; }
