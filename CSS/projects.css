@@ -105,6 +105,20 @@ header{
     padding-top: 100px;
 }
 
+.supervisors{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.supervisor{
+    background-color:#ffffff;
+    margin: 10px 10px;
+    padding: 5px 10px;
+    border-radius: 10px 10px 10px 10px;
+}
+
 .project-thumbnail{
     text-align: center;
     margin-top: 50px;
@@ -115,6 +129,13 @@ header{
     max-width: 500px;
     min-width: 350px;
 }
+
+.project-thumbnail video{
+    width: 70%;
+    max-width: 500px;
+    min-width: 350px;
+}
+
 
 .project-type{
     text-align: center;
@@ -139,6 +160,11 @@ header{
     letter-spacing: 0px;
     font-size: 20px;
     overflow-wrap: normal;
+}
+
+.section-contents a{
+    color:#9d8f80;
+    text-decoration: underline;
 }
 
 p{

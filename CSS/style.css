@@ -187,6 +187,13 @@ main{
     padding-top: 100px;
 }
 
+.about-content{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    align-items: space-around;
+}
+
 .about-profile{
     letter-spacing: 0px;
 }
@@ -592,6 +599,46 @@ border-style: solid;
     background-color: rgba(0, 0, 0, 0.3);
 }
 
+.more-aboutme{
+    background-color: #ffffff;
+    margin-top: 0px;
+    padding-bottom: 20px;
+}
+
+.more-aboutme-title{
+    font-size: 36px;
+    text-align: center;
+    padding-top:30px;
+}
+
+.more-aboutme-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.more-aboutme-content{
+    display: flex;
+    flex-flow: column;
+    justify-content: left;
+    align-items: left;
+    margin-top: 50px;
+    width:500px;
+    height:200px;
+    background-color: #CDDFE3;
+}
+
+.more-aboutme-content p{
+    margin-left: 50px;
+    margin-top: 40px;
+}
+
+.more-aboutme-content ul{
+    position: relative;
+    left: 70px;
+}
+
 .contact-title{
     font-size: 36px;
     text-align: center;
@@ -620,6 +667,7 @@ border-style: solid;
     flex-flow: column;
     background-color:#BBAFA3;
 }
+
 
 @media screen and (max-width: 480px) {
     .contact-info{

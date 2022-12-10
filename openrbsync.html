@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yuna Watanabe Portofolio</title>
+    <link rel="stylesheet" href = "CSS/projects.css">
+    <link rel="stylesheet" href="https://use.typekit.net/pdk0ggh.css">
+    <link href="http://fonts.cdnfonts.com/css/canela-text-trial" rel="stylesheet">
+    <script>
+        (function(d) {
+          var config = {
+            kitId: 'mwb8eri',
+            scriptTimeout: 3000,
+            async: true
+          },
+          h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+        })(document);
+      </script>
+</head>
+
+<body>
+    <header>
+        <div class="header-title"><a href='index.html'>Yuna Watanabe</a></div>
+        <nav class="header-content">
+            <ul>
+                <li><a href='index.html#about-title-link'>About</a></li>
+                <li><a href='index.html#projects-title-link'>Projects</a></li>
+                <li><a href="index.html#activities-title-link">Activities</a></li>
+                <li><a href="index.html#contact-title-link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="project-top">
+            <div class="project-title">OpenRBSync</div>
+        <hr width="250px">
+        <div class="project-period">June 2021 - Present</div>
+        <div class="project-type">Research Assistantship at Human Augmentation Lab, The University of Tokyo
+        <br><div class="supervisors">
+            <div class="supervisor">Prof. Jun Rekimoto</div></div>
+        </div>
+        <div class="project-thumbnail">
+            <img src="img/openrbsync.png" width = '40%'>
+        </div>
+        </div> 
+        <div class="project-section">
+            <div class="project-section-title">Keywords</div>
+            <hr width="250px">
+            <div class="section-contents">
+                <div class="keywords">
+                    <p>
+                        <div class="tag">Biosignals</div>
+                        <div class="tag">Sensors</div>
+                        <div class="tag">Communication</div>
+                    </p>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="project-section">
+            <div class="project-section-title">Research Summary</div>
+            <hr width="250px">
+            <div class="section-contents">
+                <div class="research-summary"><p>
+                    "Physiological synchrony," a phenomenon that the physiological signals of individuals synchronize, 
+                    is attracting attention in psychology, neuroscience, and cognitive science. However, while physiological
+                     synchrony in a remote environment is an essential and interesting topic under the growing needs of remote communication, 
+                     there has been limited research investigating it. To stimulate research in this field, we developed <a href='https://github.com/rkmtlab/OpenRBSync'>OpenRBSync</a>, 
+                     an open-source toolkit to acquire and save time-synchronized biosignals in remote environments. We plan to conduct 
+                     a user study exploring how visualizing synchrony affects communication.
+                </p></div>
+            </div>
+            <div class="project-thumbnail">
+                <img src="img/openrbsync-system-config.jpeg">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/r4I2nQhg39Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+        <div class="project-section">
+            <div class="project-section-title">My role</div>
+            <hr width="250px">
+            <div class="section-contents">
+                <div class="myrole"><p>
+                    <span class="highlight">I was responsible for coding the Python programs.</span> I wrote a client program that provides a user interface to input parameters, 
+                    receives biosignals from multiple types and channels of sensors, saves them to CSV files, and send them to a server program. 
+                    I also coded a server program that provides a user interface to input parameters, receives signals from two client programs, 
+                    calculates the synchrony of signals in real time, and visualizes raw data or the synchrony. <span class="highlight">We plan to experiment and submit 
+                    a paper to DIS, where I will contribute as a co-first author.</span>
+                </p></div>
+            </div>
+        </div>
+        <div class="project-section">
+            <div class="project-section-title">Publication</div>
+            <hr width="250px">
+            <div class="section-contents">
+                <div class="publication"><p>
+                    <ul><li>
+                        <b>Yuna Watanabe</b>, Kotaro Omori, Jun Rekimoto. “Feedback of physiological synchrony enhance communication”, Designing Interactive Systems Conference 2023. 
+                        (Tentative title, Plan to submit in February 2023)
+                    </li></ul>
+                </p></div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
