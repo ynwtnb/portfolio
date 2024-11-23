@@ -8,7 +8,7 @@ ul{
 }
 
 a{
-    color: #ffffff;
+    color:  #6aa8b6;
     text-decoration: none;
 }
 
@@ -57,6 +57,10 @@ header{
     padding-right: 56px;
     color: #ffffff;
     vertical-align: middle;
+}
+
+.header-content a{
+    color: #ffffff;
 }
 
 @media screen and (max-width: 1500px) {
@@ -159,6 +163,7 @@ main{
 
     .first-v_image{
         text-align: center;
+        margin-top: 40px;
     }
 
     .first-v_image img{
@@ -169,31 +174,24 @@ main{
 
     .first-v_profile{
         max-width: 95%;
+        padding-bottom: 5px;
     }
 }
 
-@media screen and (max-width: 1000px) {
-    .first-v_text{
-        padding-bottom: 130px;
+@media screen and (min-width: 481px) and (max-width: 964px) {
+    .first-v_profile{
+        padding-bottom: 80px;
+    }
+    .first-v_image{
+        margin-top: 50px;
     }
 }
 
 /* about */
-.about a {
-    color: #6aa8b6;
-}
-
 .about-title{
     font-size: 36px;
     text-align: center;
     padding-top: 100px;
-}
-
-.about-content{
-    display: flex;
-    flex-flow: row;
-    justify-content: space-around;
-    align-items: space-around;
 }
 
 .about-profile{
@@ -209,20 +207,13 @@ main{
     margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
-    width:600px;
-    height:200px;
+    max-width:600px;
+    padding: 30px;
     display: flex;
     justify-content: center;
     align-items: left;
     flex-flow: column;
     background-color: #CDDFE3;
-}
-
-@media screen and (max-width: 480px) {
-	/* 480px以下に適用されるCSS（スマホ用） */
-    .about-content{
-        max-width:90%;
-    }
 }
 
 .eng-profile{
@@ -361,17 +352,19 @@ main{
     text-align: left;
 }
 
-@media screen and (min-width: 1300px) {
+@media screen and (max-width: 480px) {
     .timeline::after {
-        left: 35%;
+        left: 15%;
     }
     
     .container {
-        width: 60%;
+        width: 80%;
     }
-
+    .right::after {
+        left: -2%;
+    }
     .right {
-        left: 35%;
+        left: 15%;
     }
 }
 
@@ -463,19 +456,49 @@ main{
     margin-top: 5px;
 }
 
+.lab-tag-CBSL {
+    display: inline-block;
+    position: relative;
+    height: 30px;
+    line-height: 30px;
+    width: 350px;
+    text-align: left;
+    padding: 0 40px 0 18px;
+    font-size: 18px;
+    background: #db7373;
+    color: #FFF;
+    box-sizing: border-box;
+    left: -30px;
+    margin-bottom: 10px;
+}
+
+.lab-tag-CBSL:after {
+    position: absolute;
+    content: '';
+    width: 0px;
+    height: 0px;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    border-width: 15px 15px 15px 0px;
+    border-color: transparent #CDDFE3; 
+    transparent transparent;
+    border-style: solid;
+    }
+
 .lab-tag-SPIN {
     display: inline-block;
     position: relative;
     height: 30px;
     line-height: 30px;
-    width: 280px;
+    width: 350px;
     text-align: left;
     padding: 0 40px 0 18px;
     font-size: 18px;
     background: #efcd7e;
     color: #FFF;
     box-sizing: border-box;
-    left: -50px;
+    left: -30px;
     margin-bottom: 10px;
   }
   
@@ -500,14 +523,14 @@ border-style: solid;
     position: relative;
     height: 30px;
     line-height: 30px;
-    width: 300px;
+    width: 350px;
     text-align: left;
     padding: 0 40px 0 18px;
     font-size: 18px;
     background: #BBAFA3;
     color: #FFF;
     box-sizing: border-box;
-    left: -50px;
+    left: -30px;
     margin-bottom: 10px;
 }
   
@@ -532,14 +555,14 @@ border-style: solid;
     position: relative;
     height: 30px;
     line-height: 30px;
-    width: 280px;
+    width: 350px;
     text-align: left;
     padding: 0 40px 0 18px;
     font-size: 18px;
     background: #aad0d8;
     color: #FFF;
     box-sizing: border-box;
-    left: -50px;
+    left: -30px;
     margin-bottom: 10px;
   }
   
@@ -564,14 +587,14 @@ border-style: solid;
     position: relative;
     height: 30px;
     line-height: 30px;
-    width: 280px;
+    width: 350px;
     text-align: left;
     padding: 0 40px 0 18px;
     font-size: 18px;
     background: #bd8fa8;
     color: #FFF;
     box-sizing: border-box;
-    left: -50px;
+    left: -30px;
     margin-bottom: 10px;
 }
   
@@ -642,6 +665,12 @@ ul.pub-list{
     width:70%;
 }
 
+@media screen and (max-width: 480px) {
+    ul.pub-list{
+        width: 90%;
+    }
+}
+
 .pub-items{
     padding-bottom: 10px;
     text-align: left;
@@ -651,6 +680,38 @@ ul.pub-list{
 .pub-items a {
     color: black;
     text-decoration-line: underline;
+}
+
+
+
+/* awards */
+.awards-title{
+    font-size: 36px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+div.awardlist-container{
+    text-align: center;
+}
+
+ul.award-list{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: inline-block;
+    text-align: left;
+}
+
+.award{
+    padding-bottom: 10px;
+    text-align: left;
+    color:#000000;
+}
+
+@media screen and (max-width: 480px) {
+    ul.award-list{
+        width: 90%;
+    }
 }
 
 /* activities */
@@ -804,6 +865,9 @@ ul.pub-list{
 
 @media screen and (max-width: 480px) {
     .contact-info{
+        max-width:90%;
+    }
+    .more-aboutme-content {
         max-width:90%;
     }
 }

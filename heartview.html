@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yuna Watanabe Portofolio</title>
+    <link rel="stylesheet" href = "CSS/projects.css">
+    <link rel="stylesheet" href="https://use.typekit.net/pdk0ggh.css">
+    <link href="http://fonts.cdnfonts.com/css/canela-text-trial" rel="stylesheet">
+    <script>
+        (function(d) {
+          var config = {
+            kitId: 'mwb8eri',
+            scriptTimeout: 3000,
+            async: true
+          },
+          h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+        })(document);
+      </script>
+</head>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W38B7KE3PV"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W38B7KE3PV');
+</script>
+
+<body>
+    <header>
+        <div class="header-title"><a href='index.html'>Yuna Watanabe</a></div>
+        <nav class="header-content">
+            <ul>
+                <li><a href='index.html#about-title-link'>About</a></li>
+                <li><a href='index.html#projects-title-link'>Projects</a></li>
+                <li><a href="index.html#activities-title-link">Activities</a></li>
+                <li><a href="index.html#contact-title-link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="project-top">
+            <div class="project-title">HeartView</div>
+        <hr width="250px">
+        <div class="project-period">September 2023 - Present</div>
+        <div class="project-type">Research Assistant
+        <br><div class="supervisors">
+            <div class="supervisor">Prof. Matthew Goodwin</div><div class="supervisor">Prof. Varun Mishra</div></div>
+        </div>
+        <div class="project-thumbnail">
+            <img src="img/heartview.jpg" width = '40%'>
+        </div>
+        </div> 
+        <div class="project-section">
+            <div class="project-section-title">Keywords</div>
+            <hr width="250px">
+            <div class="section-contents">
+                <div class="keywords">
+                    <p>
+                        <div class="tag">Psychophysiology</div>
+                        <div class="tag">Signal quality assessment</div>
+                        <div class="tag">Software</div>
+                    </p>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="project-section">
+            <div class="project-section-title">Research Summary</div>
+            <hr width="250px">
+            <div class="section-contents">
+                <div class="research-summary"><p>
+                    Wearable sensing systems enable the collection of peripheral physiological data relatively easily. 
+                    However, data collected with these devices are more susceptible to artifacts than traditional systems, 
+                    which increases missing or distorted data. 
+                    Researchers and clinicians need to conduct a signal quality assessment (SQA) and identify outliers, artifacts, and missingness 
+                    in data to increase the reliability and validity of physiological measurements. 
+                    However, many publicly available SQA tools for ambulatory cardiovascular signals do not have a graphical user interface (GUI), 
+                    limiting the opportunity for those without programming experience. 
+                    Some tools offer a GUI; however, their functionalities are limited, such as signal filtering, or their accessibility is limited 
+                    due to their use of non-free software. We are developing an open-source software tool, 
+                    <a href="https://heartview.readthedocs.io/en/latest/index.html">HeartView</a>, to address these limitations.
+                </p></div>
+            </div><br>
+            <img src="img/heartview_architecture.jpg" width = '70%'>
+        </div>
+        <div class="project-section">
+            <div class="project-section-title">My role</div>
+            <hr width="250px">
+            <div class="section-contents">
+                <div class="myrole"><p>
+                    HeartView was developed by my fellow Ph.D. candidate, Natasha Yamane. I have been helping her with the improvement of the software,
+                    especially in the development of an artifact correction function. Building on this project, I have also been working on a project to
+                    improve reliability and reproducibility in psychophysiological research. More specifically, I have been analyzing how artifact detection
+                    algorithms and artifact correction algorihtms perform differently depending on study conditions and how they can be improved.
+                </p></div>
+            </div>
+        </div>
+        <div class="project-section">
+            <div class="project-section-title">Publication</div>
+            <hr width="250px">
+            <div class="section-contents">
+                <div class="publication"><p>
+                    <ul><li>
+                        <a href="https://link.springer.com/chapter/10.1007/978-3-031-59717-6_8">
+                            Yamane, N., Mishra, V., & Goodwin, M. S. (2023, November). 
+                            HeartView: An Extensible, Open-Source, Web-Based Signal Quality Assessment Pipeline for Ambulatory Cardiovascular Data. 
+                            In International Conference on Pervasive Computing Technologies for Healthcare (pp. 107-123). Cham: Springer Nature Switzerland.
+                        </a>
+                    </li></ul>
+                </p></div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
