@@ -12,6 +12,12 @@ a{
     text-decoration: none;
 }
 
+a:hover{
+    background-color: #BBAFA3;
+    transition:0.5s;
+    color: #ffffff;
+}
+
 body{
     margin: 0 auto;
     font-family: serif; 
@@ -679,10 +685,7 @@ ul.pub-list{
 
 .pub-items a {
     color: black;
-    text-decoration-line: underline;
 }
-
-
 
 /* awards */
 .awards-title{
