@@ -20,7 +20,7 @@ export default function Heartview() {
           </div>
         </div>
         <div className="project-thumbnail">
-          <img src="/img/heartview.jpg" width="40%" alt="HeartView" />
+          <img src={`${import.meta.env.BASE_URL}img/heartview.jpg`} width="40%" alt="HeartView" />
         </div>
       </div>
 

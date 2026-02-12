@@ -20,7 +20,7 @@ export default function Tleap() {
           </div>
         </div>
         <div className="project-thumbnail">
-          <img src="/img/tleap.jpg" width="40%" alt="T-Leap" />
+          <img src={`${import.meta.env.BASE_URL}img/tleap.jpg`} width="40%" alt="T-Leap" />
         </div>
       </div>
 
@@ -46,7 +46,7 @@ export default function Tleap() {
           </div>
         </div>
         <div className="project-thumbnail">
-          <img src="/img/tleap-coretime.jpg" alt="T-Leap system in use" />
+          <img src={`${import.meta.env.BASE_URL}img/tleap-coretime.jpg`} alt="T-Leap system in use" />
         </div>
       </div>
 

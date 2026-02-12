@@ -3,7 +3,7 @@ import SiteHeader from "./SiteHeader";
 import { usePageStylesheet } from "../utils/usePageStylesheet";
 
 export default function ProjectPageLayout({ children }) {
-  usePageStylesheet("/CSS/projects.css");
+  usePageStylesheet(`${import.meta.env.BASE_URL}CSS/projects.css`);
 
   return (
     <>

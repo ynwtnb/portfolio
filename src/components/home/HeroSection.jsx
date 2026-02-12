@@ -8,7 +8,7 @@ export default function HeroSection() {
   return (
     <div className="first-v">
       <div className="first-v_image">
-        <img src="/img/headshot.jpg" alt="Yuna Watanabe" />
+        <img src={`${import.meta.env.BASE_URL}img/headshot.jpg`} alt="Yuna Watanabe" />
       </div>
       
       <div className="first-v_text">

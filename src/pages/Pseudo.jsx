@@ -19,7 +19,7 @@ export default function Pseudo() {
           </div>
         </div>
         <div className="project-thumbnail">
-          <img src="/img/Pseudo-biofeedback.jpg" width="40%" alt="Pseudo biofeedback" />
+          <img src={`${import.meta.env.BASE_URL}img/Pseudo-biofeedback.jpg`} width="40%" alt="Pseudo biofeedback" />
         </div>
       </div>
 
@@ -52,7 +52,7 @@ export default function Pseudo() {
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
             ></iframe>
-            <img src="/img/pseudo-thermal.jpg" alt="Thermal feedback device" />
+            <img src={`${import.meta.env.BASE_URL}img/pseudo-thermal.jpg`} alt="Thermal feedback device" />
           </div>
         </div>
       </div>
