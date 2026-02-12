@@ -19,7 +19,7 @@ export default function VirtualCoembodiment() {
           </div>
         </div>
         <div className="project-thumbnail">
-          <img src="/img/virtual-coembodiment.jpg" width="40%" alt="Virtual Co-embodiment" />
+          <img src={`${import.meta.env.BASE_URL}img/virtual-coembodiment.jpg`} width="40%" alt="Virtual Co-embodiment" />
         </div>
       </div>
 
@@ -44,11 +44,11 @@ export default function VirtualCoembodiment() {
           </div>
 
           <div className="project-thumbnail">
-            <img src="/img/virtual-coembodiment-gif.gif" width="40%" alt="Co-embodiment demo" />
+            <img src={`${import.meta.env.BASE_URL}img/virtual-coembodiment-gif.gif`} width="40%" alt="Co-embodiment demo" />
           </div>
           <br />
           <div className="project-thumbnail">
-            <img src="/img/simontask.png" width="80%" alt="Study task" />
+            <img src={`${import.meta.env.BASE_URL}img/simontask.png`} width="80%" alt="Study task" />
           </div>
         </div>
       </div>

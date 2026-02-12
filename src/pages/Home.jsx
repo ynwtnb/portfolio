@@ -12,8 +12,8 @@ import ContactSection from "../components/home/ContactSection";
 import MoreAboutMeSection from "../components/home/MoreAboutMeSection";
 
 export default function Home() {
-  usePageStylesheet("/CSS/style.css");
-  usePageStylesheet("/CSS/enhancements.css");
+  usePageStylesheet(`${import.meta.env.BASE_URL}CSS/style.css`);
+  usePageStylesheet(`${import.meta.env.BASE_URL}CSS/enhancements.css`);
 
   return (
     <>

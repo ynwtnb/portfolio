@@ -19,7 +19,7 @@ export default function Bdrum() {
           </div>
         </div>
         <div className="project-thumbnail">
-          <img src="/img/bdrum.JPG" width="40%" alt="BDrum device" />
+          <img src={`${import.meta.env.BASE_URL}img/bdrum.JPG`} width="40%" alt="BDrum device" />
         </div>
       </div>
 

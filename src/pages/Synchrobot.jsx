@@ -22,7 +22,7 @@ export default function Synchrobot() {
         </div>
 
         <div className="project-thumbnail">
-          <img src="/img/synchrobot.jpg" width="40%" alt="Synchrobot" />
+          <img src={`${import.meta.env.BASE_URL}img/synchrobot.jpg`} width="40%" alt="Synchrobot" />
         </div>
       </div>
 
@@ -60,7 +60,7 @@ export default function Synchrobot() {
             allowFullScreen
           ></iframe>
           <br />
-          <img src="/img/synchrobot-setting.jpg" alt="Synchrobot study setting" />
+          <img src={`${import.meta.env.BASE_URL}img/synchrobot-setting.jpg`} alt="Synchrobot study setting" />
         </div>
       </div>
 

@@ -19,7 +19,7 @@ export default function Openrbsync() {
           </div>
         </div>
         <div className="project-thumbnail">
-          <img src="/img/openrbsync.png" width="40%" alt="OpenRBSync" />
+          <img src={`${import.meta.env.BASE_URL}img/openrbsync.png`} width="40%" alt="OpenRBSync" />
         </div>
       </div>
 
@@ -44,7 +44,7 @@ export default function Openrbsync() {
           </div>
         </div>
         <div className="project-thumbnail">
-          <img src="/img/openrbsync-system-config.jpeg" alt="OpenRBSync system config" />
+          <img src={`${import.meta.env.BASE_URL}img/openrbsync-system-config.jpeg`} alt="OpenRBSync system config" />
           <iframe
             width="560"
             height="315"
