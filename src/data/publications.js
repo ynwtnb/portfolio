@@ -9,6 +9,16 @@ export const MY_NAME_PATTERNS = [
 
 export const publications = [
   {
+    id: "point-process-modeling-2025",
+    title:
+      "Temporal Point Process Modeling of Aggressive Behavior Onset in Psychiatric Inpatient Youths with Autism.",
+    venue: "Scientific Reports",
+    year: 2026,
+    authors:
+      "Michael Potter, Michael Everett, Ashutosh Singh, Georgios Stratis, Yuna Watanabe, Ahmet Demirkaya, Deniz Erdogmus, Tales Imbiriba, and Matthew S Goodwin.",
+    link: "https://www.nature.com/articles/s41598-026-46996-8",
+  },
+  {
     id: "beyond-motion-artifacts-2025",
     title:
       "Beyond Motion Artifacts: Optimizing PPG Preprocessing for Accurate Pulse Rate Variability Estimation.",
@@ -17,16 +27,6 @@ export const publications = [
     authors:
       "Yuna Watanabe, Natasha Yamane, Aarti Sathyanarayana, Varun Mishra, and Matthew S. Goodwin.",
     link: "https://dl.acm.org/doi/abs/10.1145/3714394.3756241",
-  },
-  {
-    id: "point-process-modeling-2025",
-    title:
-      "Temporal Point Process Modeling of Aggressive Behavior Onset in Psychiatric Inpatient Youths with Autism.",
-    venue: "Preprint",
-    year: 2025,
-    authors:
-      "Michael Potter, Michael Everett, Ashutosh Singh, Georgios Stratis, Yuna Watanabe, Ahmet Demirkaya, Deniz Erdogmus, Tales Imbiriba, and Matthew S Goodwin.",
-    link: "https://arxiv.org/abs/2503.15821",
   },
   {
     id: "hierarchical-point-process-modeling-2025",
