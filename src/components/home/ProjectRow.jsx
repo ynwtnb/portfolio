@@ -1,9 +1,20 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 
 export default function ProjectRow({ project }) {
-  const Tag = (
-    <div className={`lab-tag ${project.labTag.className}`}>{project.labTag.label}</div>
+  const [showTag, setShowTag] = useState(
+    () => typeof window !== "undefined" ? !window.matchMedia("(max-width: 640px)").matches : true
   );
+
+  useEffect(() => {
+    const mq = window.matchMedia("(max-width: 640px)");
+    const update = (e) => setShowTag(!e.matches);
+    mq.addEventListener("change", update);
+    return () => mq.removeEventListener("change", update);
+  }, []);
+
+  const Tag = showTag ? (
+    <div className={`lab-tag ${project.labTag.className}`}>{project.labTag.label}</div>
+  ) : null;
 
   const Title = project.href ? (
     <a href={project.href}>{project.title}</a>

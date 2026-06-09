@@ -103,12 +103,20 @@
 }
 
 /* responsive */
-@media (max-width: 760px) {
+@media (max-width: 880px) {
   .project-row {
     grid-template-columns: 1fr;
   }
   .project-row .project-thumb {
     aspect-ratio: 16 / 9;
+  }
+}
+
+@media (max-width: 480px) {
+  .projects .project-rows,
+  .publications .pub-cards {
+    padding-left: 12px !important;
+    padding-right: 12px !important;
   }
 }
 
