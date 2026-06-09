@@ -16,6 +16,12 @@ export default function ProjectRow({ project }) {
     <div className={`lab-tag ${project.labTag.className}`}>{project.labTag.label}</div>
   ) : null;
 
+  const StatusBadge = project.status ? (
+    <span className={`status-badge status-badge--${project.status}`}>
+      {project.status === "ongoing" ? "Ongoing" : "Past"}
+    </span>
+  ) : null;
+
   const Title = project.href ? (
     <a href={project.href}>{project.title}</a>
   ) : (
@@ -44,7 +50,10 @@ export default function ProjectRow({ project }) {
       {imageWrap}
 
       <div className="project-row-body">
-        {Tag}
+        <div className="project-row-tags">
+          {Tag}
+          {StatusBadge}
+        </div>
         <h3 className="project-row-title">{Title}</h3>
         <p className="project-row-desc">{project.summary}</p>
         {project.href ? (

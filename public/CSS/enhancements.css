@@ -120,6 +120,37 @@
   }
 }
 
+/* ---------- Status badge ---------- */
+
+.project-row-tags {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.status-badge {
+  display: inline-block;
+  padding: 0 12px;
+  border-radius: 999px;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.4px;
+  white-space: nowrap;
+  line-height: 30px;
+  height: 30px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.status-badge--ongoing {
+  background: #4b9e3e;
+}
+
+.status-badge--past {
+  background: #7a7a7a;
+}
+
 /* ---------- Publications: card blocks with highlighted name ---------- */
 
 .publications .pub-list {

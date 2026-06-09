@@ -7,6 +7,7 @@ export const projects = [
   {
     id: "benchmark",
     title: "Wearable device benchmarking under mental and physical stress",
+    status: "ongoing",
     labTag: { label: "Computational Behavioral Science Lab & UbiWell Lab", className: "lab-tag-CBSL-UW" },
     image: `${import.meta.env.BASE_URL}img/smartwatch.jpg`,
     href: null,
@@ -18,6 +19,7 @@ export const projects = [
   {
     id: "linkage",
     title: "Physiological linkage",
+    status: "ongoing",
     labTag: { label: "Computational Behavioral Science Lab & UbiWell Lab", className: "lab-tag-CBSL-UW" },
     image: `${import.meta.env.BASE_URL}img/multimodal-visualization.png`,
     href: null,
@@ -29,6 +31,7 @@ export const projects = [
   {
     id: "heartview",
     title: "PhysioView",
+    status: "ongoing",
     labTag: { label: "Computational Behavioral Science Lab & UbiWell Lab", className: "lab-tag-CBSL-UW" },
     image: `${import.meta.env.BASE_URL}img/heartview.jpg`,
     // href: "/heartview",
@@ -38,6 +41,7 @@ export const projects = [
   {
     id: "aggression",
     title: "Aggression prediction",
+    status: "ongoing",
     labTag: { label: "Computational Behavioral Science Lab", className: "lab-tag-CBSL" },
     image: `${import.meta.env.BASE_URL}img/child-frustration.jpg`,
     href: null,
@@ -50,6 +54,7 @@ export const projects = [
   {
     id: "synchrobot",
     title: "Synchrobot",
+    status: "past",
     labTag: { label: "SPIN Lab (Intern at UBC)", className: "lab-tag-SPIN" },
     image: `${import.meta.env.BASE_URL}img/synchrobot.jpg`,
     // href: "/synchrobot",
@@ -59,6 +64,7 @@ export const projects = [
   {
     id: "openrbsync",
     title: "OpenRBSync",
+    status: "past",
     labTag: { label: "Human Augmentation Lab", className: "lab-tag-HAL" },
     image: `${import.meta.env.BASE_URL}img/openrbsync.png`,
     // href: "/openrbsync",
@@ -68,6 +74,7 @@ export const projects = [
   {
     id: "tleap",
     title: "T-Leap",
+    status: "past",
     labTag: { label: "Information Somatics Lab", className: "lab-tag-ISL" },
     image: `${import.meta.env.BASE_URL}img/tleap.jpg`,
     // href: "/tleap",
@@ -77,6 +84,7 @@ export const projects = [
   {
     id: "virtual-coembodiment",
     title: "Virtual Co-embodiment",
+    status: "past",
     labTag: { label: "Cyber Interface Lab", className: "lab-tag-CIL" },
     image: `${import.meta.env.BASE_URL}img/virtual-coembodiment.jpg`,
     // href: "/virtual-coembodiment",
