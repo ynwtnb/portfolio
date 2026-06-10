@@ -498,7 +498,7 @@ main{
     .projects-list{
         max-width: 1000%;
         letter-spacing: 0px;
-        font-size: 20px;
+        font-size: 16px;
         list-style: none;
         display: flex;
         flex-flow: column;
@@ -1127,4 +1127,50 @@ ul.award-list{
 .author-me {
   font-weight: 700;
   text-decoration: underline;
+}
+
+/* Mobile font sizes — bring everything in line with publication card scale */
+@media screen and (max-width: 480px) {
+    main {
+        font-size: 16px;
+    }
+
+    .name {
+        font-size: 20px;
+    }
+
+    .about-title,
+    .education-title,
+    .projects-title,
+    .publications-title,
+    .awards-title,
+    .activities-title,
+    .contact-title,
+    .more-aboutme-title {
+        font-size: 24px;
+    }
+
+    .feature {
+        font-size: 16px;
+    }
+
+    .project-row-title {
+        font-size: 16px;
+    }
+
+    .project-row-desc {
+        font-size: 14px;
+    }
+
+    .about-name ul {
+        font-size: 14px;
+    }
+
+    .activity-title {
+        font-size: 16px;
+    }
+
+    .contact-info {
+        font-size: 16px;
+    }
 }
