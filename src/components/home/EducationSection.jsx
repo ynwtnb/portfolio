@@ -10,22 +10,22 @@ const EDUCATION = [
   {
     years: "2022 – 2023",
     title: "The University of Tokyo",
-    detail: "Reserch Assistant at the Sensory Perception & Interaction, Research Group, advised by Prof. Karon MacLean",
+    detail: "Research Assistant at the Sensory Perception & Interaction, Research Group, advised by Prof. Karon MacLean",
   },
   {
     years: "2022 – 2023",
     title: "The University of Tokyo",
-    detail: "Reserch Assistant at the Human Augmentation Lab, advised by Prof. Jun Rekimoto",
+    detail: "Research Assistant at the Human Augmentation Lab, advised by Prof. Jun Rekimoto",
   },
   {
     years: "2022 – 2023",
     title: "The University of Tokyo",
-    detail: "Reserch Assistant at the Information Somatics Lab, advised by Prof. Daisuke Uriu",
+    detail: "Research Assistant at the Information Somatics Lab, advised by Prof. Daisuke Uriu",
   },
   {
     years: "2021 – 2022",
     title: "The University of Tokyo",
-    detail: "Reserch Assistant at the Cyber Interface Lab, advised by Prof. Takuji Narumi",
+    detail: "Research Assistant at the Cyber Interface Lab, advised by Prof. Takuji Narumi",
   },
   {
     years: "2019 – 2023",
