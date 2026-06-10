@@ -133,8 +133,11 @@ main{
 
 .first-v_image{
     margin-top: 100px;
-    flex: 0 0 auto;   
-    margin-left: 50px;           
+    flex: 0 0 auto;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .ongoing-projects{
@@ -159,8 +162,35 @@ main{
     margin-right: auto;
 }
 
-.first-v_image img{
+.first-v_image > img{
     width: 300px;
+}
+
+/* Social links below profile photo */
+.social-links {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    margin-top: 16px;
+}
+
+.social-link {
+    display: flex;
+    text-decoration: none;
+}
+
+.social-icon {
+    width: 28px;
+    height: 28px;
+    object-fit: contain;
+}
+
+.social-icon:hover {
+    opacity: 0.6;
+}
+
+.social-label {
+    display: none;
 }
 
 @media screen and (max-width: 1055px) {
@@ -170,10 +200,11 @@ main{
     }
 
     .first-v_image{
-        width: 100%;               
+        width: 100%;
         display: flex;
-        justify-content: center; 
-        margin-top: 100px; 
+        flex-direction: column;
+        align-items: center;
+        margin-top: 100px;
         margin-left: 10%;
         margin-right: 10%;
     }
