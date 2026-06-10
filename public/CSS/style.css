@@ -24,7 +24,7 @@ a:hover{
 
 body{
     margin: 0 auto;
-    font-family: serif; 
+    font-family: 'Source Serif 4', serif;
 }
 
 
@@ -46,7 +46,7 @@ header{
     margin-left: 5%;
     font-weight: 700;
     font-style: normal;
-    font-size: 24px;
+    font-size: 22px;
     letter-spacing: 2.0px;
     margin-top: 5px;
 }
@@ -54,7 +54,7 @@ header{
 .header-content ul{
     font-weight: 700;
     font-style: normal;
-    font-size: 24px;
+    font-size: 22px;
     display: flex;
     flex-flow: row;
     letter-spacing: 2.0px;
@@ -78,7 +78,7 @@ header{
 
     
     .header-content ul{
-        font-size: 20px;
+        font-size: 18px;
         padding-right: 70px;
     }
 
@@ -88,7 +88,7 @@ header{
     }
 
     .header-title{
-        font-size: 20px;
+        font-size: 18px;
     }
 }
 
@@ -101,9 +101,9 @@ header{
 /* first-v */
 
 main{
-    font-family: serif;
+    font-family: 'Source Serif 4', serif;
     color: #262626;
-    font-size: 18px;
+    font-size: 16px;
     overflow-x: hidden;
 }
 
@@ -144,6 +144,10 @@ main{
     margin-top: 10px;
 }
 
+.aboutme b {
+    color: #8b5e3c;
+}
+
 .ongoing-projects li{
     margin-top: 10px;
 }
@@ -151,7 +155,7 @@ main{
 .name{
     width: 100%;
     text-align: left;
-    font-size:35px;
+    font-size:33px;
     letter-spacing: 0px;
 }
 
@@ -220,7 +224,7 @@ main{
 
     .name{
         text-align: center;        
-        font-size: 30px;
+        font-size: 28px;
     }
 
     .name-line{
@@ -235,7 +239,7 @@ main{
 }
 /* about */
 .about-title{
-    font-size: 36px;
+    font-size: 34px;
     text-align: center;
     padding-top: 100px;
 }
@@ -246,7 +250,7 @@ main{
 
 .about-name ul{
     list-style: none;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .about-name{
@@ -276,7 +280,7 @@ main{
     color: #262626;
     outline-color: #262626;
     outline-width: 0.5px;
-    font-size: 24px;
+    font-size: 22px;
     box-shadow: 5px 5px 0 0 rgba(125,125,125,0.5);
 }
 
@@ -354,7 +358,7 @@ main{
 }
 
 .education-title{
-    font-size: 36px;
+    font-size: 34px;
     text-align: center;
     padding-top: 100px;
 }
@@ -449,7 +453,7 @@ main{
     padding-bottom: 50px;
 }
 .projects-title{
-    font-size: 36px;
+    font-size: 34px;
     text-align: center;
     padding-top: 50px;
 }
@@ -461,7 +465,7 @@ main{
 .feature{
     width: 100%;
     text-align: center;
-    font-size: 30px;
+    font-size: 28px;
     padding: 20px 10% 0px 10%;
 }
 
@@ -473,7 +477,7 @@ main{
 
 .projects-list{
     letter-spacing: 0px;
-    font-size: 25px;
+    font-size: 23px;
     list-style: none;
     display: flex;
     flex-wrap: wrap;
@@ -498,7 +502,7 @@ main{
     .projects-list{
         max-width: 1000%;
         letter-spacing: 0px;
-        font-size: 16px;
+        font-size: 14px;
         list-style: none;
         display: flex;
         flex-flow: column;
@@ -525,7 +529,7 @@ main{
 }
 
 .project-exp{
-    font-size: 15px;
+    font-size: 13px;
     color: #808080;
     text-align: center;
     margin-top: 5px;
@@ -539,7 +543,7 @@ main{
     width: 500px;
     text-align: left;
     padding: 0 40px 0 18px;
-    font-size: 18px;
+    font-size: 16px;
     background: #c3a1d1;
     color: #FFF;
     box-sizing: border-box;
@@ -568,7 +572,7 @@ main{
     width: 500px;
     text-align: left;
     padding: 0 40px 0 18px;
-    font-size: 18px;
+    font-size: 16px;
     background: #db7373;
     color: #FFF;
     box-sizing: border-box;
@@ -597,7 +601,7 @@ main{
     width: 500px;
     text-align: left;
     padding: 0 40px 0 18px;
-    font-size: 18px;
+    font-size: 16px;
     background: #efcd7e;
     color: #FFF;
     box-sizing: border-box;
@@ -628,7 +632,7 @@ border-style: solid;
     width: 500px;
     text-align: left;
     padding: 0 40px 0 18px;
-    font-size: 18px;
+    font-size: 16px;
     background: #BBAFA3;
     color: #FFF;
     box-sizing: border-box;
@@ -659,7 +663,7 @@ border-style: solid;
     width: 500px;
     text-align: left;
     padding: 0 40px 0 18px;
-    font-size: 18px;
+    font-size: 16px;
     background: #aad0d8;
     color: #FFF;
     box-sizing: border-box;
@@ -690,7 +694,7 @@ border-style: solid;
     width: 500px;
     text-align: left;
     padding: 0 40px 0 18px;
-    font-size: 18px;
+    font-size: 16px;
     background: #bd8fa8;
     color: #FFF;
     box-sizing: border-box;
@@ -721,7 +725,7 @@ border-style: solid;
         width: 500px;
     text-align: left;
     padding: 0 40px 0 18px;
-    font-size: 18px;
+    font-size: 16px;
     background: #7e737d;
     color: #FFF;
     box-sizing: border-box;
@@ -746,7 +750,7 @@ border-style: solid;
 
 /* publications */
 .publications-title{
-    font-size: 36px;
+    font-size: 34px;
     text-align: center;
     padding-top: 50px;
 }
@@ -781,7 +785,7 @@ ul.pub-list{
 
 /* awards */
 .awards-title{
-    font-size: 36px;
+    font-size: 34px;
     text-align: center;
     padding-top: 50px;
 }
@@ -825,7 +829,7 @@ ul.award-list{
 }
 
 .activities-title{
-    font-size: 36px;
+    font-size: 34px;
     text-align: center;
     padding-top:50px;
 }
@@ -856,7 +860,7 @@ ul.award-list{
 .activity-title{
     width: 100%;
     color: #262626;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .activity-exp{
@@ -899,7 +903,7 @@ ul.award-list{
 }
 
 .more-aboutme-title{
-    font-size: 36px;
+    font-size: 34px;
     text-align: center;
     padding-top:30px;
 }
@@ -933,7 +937,7 @@ ul.award-list{
 }
 
 .contact-title{
-    font-size: 36px;
+    font-size: 34px;
     text-align: center;
     padding-top: 50px;
 }
@@ -946,7 +950,7 @@ ul.award-list{
 }
 
 .contact-info{
-    font-size: 20px;
+    font-size: 18px;
     color: #ffffff;
     list-style: none;
     margin-top: 50px;
@@ -1017,7 +1021,7 @@ ul.award-list{
 
 .project-row-title {
   margin: 10px 0 8px 0;
-  font-size: 24px;
+  font-size: 22px;
 }
 
 .project-row-title a {
@@ -1033,7 +1037,7 @@ ul.award-list{
   margin: 0;
   color: rgba(0, 0, 0, 0.78);
   line-height: 1.6;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .project-row-cta {
@@ -1091,7 +1095,7 @@ ul.award-list{
 }
 
 .pub-card-title {
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1.5;
   margin-bottom: 6px;
 }
@@ -1100,7 +1104,7 @@ ul.award-list{
   display: flex;
   gap: 10px;
   align-items: center;
-  font-size: 14px;
+  font-size: 12px;
   color: rgba(0, 0, 0, 0.7);
   margin-bottom: 8px;
 }
@@ -1115,7 +1119,7 @@ ul.award-list{
   }
 
 .pub-card-authors {
-  font-size: 14px;
+  font-size: 12px;
   line-height: 1.5;
   color: rgba(0, 0, 0, 0.82);
 }
@@ -1132,11 +1136,11 @@ ul.award-list{
 /* Mobile font sizes — bring everything in line with publication card scale */
 @media screen and (max-width: 480px) {
     main {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .name {
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .about-title,
@@ -1147,30 +1151,30 @@ ul.award-list{
     .activities-title,
     .contact-title,
     .more-aboutme-title {
-        font-size: 24px;
+        font-size: 22px;
     }
 
     .feature {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .project-row-title {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .project-row-desc {
-        font-size: 14px;
+        font-size: 12px;
     }
 
     .about-name ul {
-        font-size: 14px;
+        font-size: 12px;
     }
 
     .activity-title {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .contact-info {
-        font-size: 16px;
+        font-size: 14px;
     }
 }
