@@ -43,7 +43,7 @@ export default function AboutSection() {
               className="resume"
               onClick={() =>
                 window.open(
-                  "https://drive.google.com/file/d/1AC5oKfUAFUupE1CZEJ_IvwpSq4VhfmhP/view?usp=sharing",
+                  `${import.meta.env.BASE_URL}curriculum_vitae_YunaWatanabe.pdf`,
                   "_blank",
                 )
               }

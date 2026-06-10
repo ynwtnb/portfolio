@@ -50,7 +50,7 @@ export default function HeroSection() {
               </li>
             </ul>
             <br />
-            If you are interested in learning more about me, please check out my <a href="https://drive.google.com/file/d/1AC5oKfUAFUupE1CZEJ_IvwpSq4VhfmhP/view?usp=sharing">curriculum vitae</a>.
+            If you are interested in learning more about me, please check out my <a href={`${import.meta.env.BASE_URL}curriculum_vitae_YunaWatanabe.pdf`} target="_blank" rel="noreferrer">curriculum vitae</a>.
           </div>
         </div>
       </div>
