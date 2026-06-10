@@ -5,6 +5,41 @@
 
 export const projects = [
   {
+    id: "couple-intervention",
+    title: "Attunement-supporting intervention for couples",
+    status: "ongoing",
+    labTag: { label: "Computational Behavioral Science Lab & UbiWell Lab", className: "lab-tag-CBSL-UW" },
+    image: `${import.meta.env.BASE_URL}img/couple-intervention.png`,
+    href: null,
+    summary: "Healthy romantic relationships are critical for our well-being and health, and it is important to address misattunement or relationship distress early on. \
+    However, many couples do not seek help until their relationship is severely distressed. \
+    We conduct needs assessment and design an intervention that support couples' attunement and relationship quality in their daily lives."
+  },
+  {
+    id: "physio-preprocessing",
+    title: "Physiological signal processing",
+    status: "ongoing",
+    labTag: { label: "Computational Behavioral Science Lab & UbiWell Lab", className: "lab-tag-CBSL-UW" },
+    image: `${import.meta.env.BASE_URL}img/filter-optimization-concept.png`,
+    href: null,
+    summary: "Physiological signals collected with wearable devices need to be properly preprocessed to avoid impacts of artifacts. \
+    However, the preprocessing steps and parameters vary across studies, and there is often no consensus on the optimal preprocessing pipeline. \
+    To improve the accuracy, reliability, and validity of downstream analyses, we develop frameworks, algorithms, and tools for physiological signal preprocessing, \
+    including a context-aware filter optimization framework for wrist PPG signals.",
+  },
+  {
+    id: "heartview",
+    title: "PhysioView",
+    status: "ongoing",
+    labTag: { label: "Computational Behavioral Science Lab & UbiWell Lab", className: "lab-tag-CBSL-UW" },
+    image: `${import.meta.env.BASE_URL}img/heartview.jpg`,
+    // href: "/heartview",
+    href: "https://github.com/cbslneu/physioview",
+    summary: "Wearable sensing systems enable the collection of peripheral physiological data relatively easily. \
+    However, data collected with these devices are more susceptible to artifacts than traditional systems, which increases missing or distorted data. \
+    We develop an open-source software tool, PhysioView, which allows researchers and clinicians to preprocess, visualize, and control the quality of multimodal physiological signals.",
+  },
+  {
     id: "benchmark",
     title: "Wearable device benchmarking under mental and physical stress",
     status: "ongoing",
@@ -20,23 +55,13 @@ export const projects = [
     id: "linkage",
     title: "Physiological linkage",
     status: "ongoing",
-    labTag: { label: "Computational Behavioral Science Lab & UbiWell Lab", className: "lab-tag-CBSL-UW" },
+    labTag: { label: "Computational Behavioral Science Lab", className: "lab-tag-CBSL" },
     image: `${import.meta.env.BASE_URL}img/multimodal-visualization.png`,
     href: null,
     summary: "When more than two people interact, their physiological responses often show linked patterns, a phenomenon known as physiological linkage or synchrony. \
     Research shows mixed results on how physiological linkage is linked to relationship dynamics and quality. To better understand this phenomenon and \
     improve the reproducibility of research in this area, we develop a interactive data visualization dashboard for researchers to explore and analyze physiological linkage patterns. \
     We also conduct a meta-analysis to synthesize the existing research findings about the relationship between physiological linkage and relationship dynamics.",
-  },
-  {
-    id: "heartview",
-    title: "PhysioView",
-    status: "ongoing",
-    labTag: { label: "Computational Behavioral Science Lab & UbiWell Lab", className: "lab-tag-CBSL-UW" },
-    image: `${import.meta.env.BASE_URL}img/heartview.jpg`,
-    // href: "/heartview",
-    href: "https://github.com/cbslneu/physioview",
-    summary: "Wearable sensing systems enable the collection of peripheral physiological data relatively easily. However, data collected with these devices are more susceptible to artifacts than traditional systems, which increases missing or distorted data. Researchers and clinicians need to conduct a signal quality assessment (SQA) and identify outliers, artifacts, and missingness in data to increase the reliability and validity of physiological measurements. However, many publicly available SQA tools for ambulatory cardiovascular signals do not have a graphical user interface (GUI), limiting the opportunity for those without programming experience. Some tools offer a GUI; however, their functionalities are limited, such as signal filtering, or their accessibility is limited due to their use of non-free software. We are developing an open-source software tool, HeartView, to address these limitations.",
   },
   {
     id: "aggression",
