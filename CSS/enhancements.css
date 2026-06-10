@@ -103,13 +103,52 @@
 }
 
 /* responsive */
-@media (max-width: 760px) {
+@media (max-width: 880px) {
   .project-row {
     grid-template-columns: 1fr;
   }
   .project-row .project-thumb {
     aspect-ratio: 16 / 9;
   }
+}
+
+@media (max-width: 480px) {
+  .projects .project-rows,
+  .publications .pub-cards {
+    padding-left: 12px !important;
+    padding-right: 12px !important;
+  }
+}
+
+/* ---------- Status badge ---------- */
+
+.project-row-tags {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.status-badge {
+  display: inline-block;
+  padding: 0 12px;
+  border-radius: 999px;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.4px;
+  white-space: nowrap;
+  line-height: 30px;
+  height: 30px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.status-badge--ongoing {
+  background: #4b9e3e;
+}
+
+.status-badge--past {
+  background: #7a7a7a;
 }
 
 /* ---------- Publications: card blocks with highlighted name ---------- */
