@@ -9,6 +9,20 @@ export default function HeroSection() {
     <div className="first-v">
       <div className="first-v_image">
         <img src={`${import.meta.env.BASE_URL}img/headshot.jpg`} alt="Yuna Watanabe" />
+        <div className="social-links">
+          <a className="social-link" href="https://scholar.google.com/citations?user=JaFo_r8AAAAJ&hl=en" target="_blank" rel="noreferrer">
+            <img className="social-icon" src={`${import.meta.env.BASE_URL}img/googlescholar-icon.png`} alt="Google Scholar" />
+            <span className="social-label">Google Scholar</span>
+          </a>
+          <a className="social-link" href="https://github.com/ynwtnb" target="_blank" rel="noreferrer">
+            <img className="social-icon" src={`${import.meta.env.BASE_URL}img/github-icon.png`} alt="GitHub" />
+            <span className="social-label">GitHub</span>
+          </a>
+          <a className="social-link" href="https://www.linkedin.com/in/yuna-watanabe-15497a220/" target="_blank" rel="noreferrer">
+            <img className="social-icon" src={`${import.meta.env.BASE_URL}img/linkedin-icon.png`} alt="LinkedIn" />
+            <span className="social-label">LinkedIn</span>
+          </a>
+        </div>
       </div>
       
       <div className="first-v_text">
