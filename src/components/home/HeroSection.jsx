@@ -40,29 +40,28 @@ export default function HeroSection() {
             </a>{" "} and {" "}
             <a href="https://www.khoury.northeastern.edu/people/varun-mishra/">
               Prof. Varun Mishra
-            </a>{" "}
-            . I am intersted in quantifying and improving
-            psychological well-being by leveraging physiological data,
-            particularly focusing on enhancing communication between couples. 
-            I am also interested in enhancing the validity and reproducibility of psychophysiological
-            research by developing open-source signal analysis tools. <br /><br />
+            </a>
+            . Prior to Ph.D., I completed my Bachelor's degree in Information Science 
+            at the University of Tokyo, advised by{" "}
+            <a href="https://lab.rekimoto.org/members/rekimoto/">
+              Prof. Jun Rekimoto
+            </a>
+            . 
 
-            My ongoing projects include:
-            <ul className="ongoing-projects">
-              <li>
-                <b>Quality control for ambulatory physiological data</b>: Develop algorithms and interactive dashboards for researchers to 
-                adaptively preprocess and quantify data quality of physiological signals, such as photoplethysmography (PPG) and electrodermal activity (EDA).
-              </li>
-              <li>
-                <b>Physiological linkage</b>: Investigate how dyads' physiological responses are linked across different relationship dynamics and interaction contexts.
-              </li>
-              <li>
-                <b>Digital interventions for couples</b>: Co-design digital interventions for couples to enhance communication and relationship satisfaction.
-              </li>
-              <li>
-                <b>Aggression prediction of children with autism</b>: Predict aggressive behaviors of children with autism using machine learning and deep learning techniques.
-              </li>
-            </ul>
+            My research develops <b>human-centered sensing and AI models for understanding and supporting relational well-being</b>. 
+            I work at the intersection of <b>wearable computing, psychophysiology, machine learning, and human-computer interaction</b>.
+            <br />
+            <br />
+            Across my projects, I ask <b>how noisy physiological and interaction data from everyday life can be made reliable, interpretable, and useful</b>. 
+            This includes developing open-source tools for physiological signal quality control, 
+            studying physiological linkage between close relationship partners, 
+            and designing digital interventions that help couples reflect on communication and emotional needs. 
+            I also apply wearable-based machine learning to model affective and behavioral states, including aggression prediction in autistic children.
+            <br />
+            <br />
+            Together, my work aims to advance both the methodological foundations of psychophysiological research 
+            and the design of technologies that support healthier relationships and better emotional understanding.
+
             <br />
             If you are interested in learning more about me, please check out my <a href={`${import.meta.env.BASE_URL}curriculum_vitae_YunaWatanabe.pdf`} target="_blank" rel="noreferrer">curriculum vitae</a>.
           </div>
