@@ -12,31 +12,13 @@ export default function Synchrobot() {
         <hr width="250px" />
         <div className="project-period">May 2022 - April 2023</div>
         <div className="project-type">
-          Research Internship at Sensory Perception &amp; Interaction Research Group,
+          Research Assistant at Sensory Perception &amp; Interaction Research Group,
           <br /> The University of British Columbia
           <br />
-          <div className="supervisors">
-            <div className="supervisor">Prof. Karon MacLean</div>
-            <div className="supervisor">Prof. Jun Rekimoto</div>
-          </div>
         </div>
 
         <div className="project-thumbnail">
           <img src={`${import.meta.env.BASE_URL}img/synchrobot.jpg`} width="40%" alt="Synchrobot" />
-        </div>
-      </div>
-
-      <div className="project-section">
-        <div className="project-section-title">Keywords</div>
-        <hr width="250px" />
-        <div className="section-contents">
-          <div className="keywords">
-            <div className="tag">Expressive Biosignals</div>
-            <div className="tag">Collaboration</div>
-            <div className="tag">Psychology</div>
-            <div className="tag">Sensors</div>
-            <div className="tag">Haptics</div>
-          </div>
         </div>
       </div>
 
@@ -48,12 +30,10 @@ export default function Synchrobot() {
             <p>{project?.summary}</p>
           </div>
         </div>
-
-        <div className="project-thumbnail">
-          <iframe
+        <iframe
             width="560"
             height="315"
-            src="https://www.youtube.com/embed/VLMgpfpZChw"
+            src="https://www.youtube.com/embed/4OFmS1NR-v4?si=fNUMGOAkmcHFkfdX"
             title="Synchrobots demo video"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -61,8 +41,19 @@ export default function Synchrobot() {
           ></iframe>
           <br />
           <img src={`${import.meta.env.BASE_URL}img/synchrobot-setting.jpg`} alt="Synchrobot study setting" />
-        </div>
       </div>
+
+      {project?.contribution && (
+        <div className="project-section">
+          <div className="project-section-title">My Contribution</div>
+          <hr width="250px" />
+          <div className="section-contents">
+            <div className="contribution">
+              <p>{project?.contribution}</p>
+            </div>
+          </div>
+        </div>
+      )}
 
       <div className="project-section">
         <div className="project-section-title">Publication</div>

@@ -148,6 +148,21 @@ header{
     text-align: center;
     width:70%;
     margin: 0 auto;
+    white-space: pre-line;
+}
+
+.project-section img{
+    width: 100%;
+    max-width: 1000px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.project-section video{
+    width: 100%;
+    max-width: 1000px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .project-section-title{

@@ -80,11 +80,22 @@ export const projects = [
     status: "past",
     labTag: { label: "SPIN Lab (Intern at UBC)", className: "lab-tag-SPIN" },
     image: `${import.meta.env.BASE_URL}img/synchrobot.jpg`,
-    // href: "/synchrobot",
-    href: null,
-    summary: "Physiological synchrony is suggested to correlate with various interpersonal relationships, including teamwork. \
-    In this project, we developed haptic robots that moved according to the teammate's heartbeat and \
-    evaluated if the system could enhance physiological synchrony and improve the quality of collaboration",
+    href: "/synchrobot",
+    summary: "Synchrobot is a pair of haptic robots that translate a remote teammate's heartbeat into physical movement, \
+    making an otherwise invisible physiological signal tangible during collaboration. \
+    We designed and tested the system as a new way to explore how bodily signals might support awareness, connection, and coordination between teammates.",
+    contribution: "Synchrobot was developed through a collaboration with the SPIN Lab at the University of British Columbia. \
+    I introduced the central research direction: whether haptic representations of physiological signals could influence how people feel, \
+    perceive collaboration, and respond physiologically. In particular, I explored what might happen when collaborators could physically experience one another's heartbeats \
+    during a shared task.\n\n" +
+    
+    "Using an existing furry robotic platform developed by the SPIN Lab, I led the technical development of the Synchrobot system. \
+    I improved the robot, integrated physiological sensors, and developed the real-time communication pipeline that connected each participant's heart-rate data to their collaborator’s robot. \
+    I wrote the system software in Python, including the processing of incoming physiological data and serial communication with ESP32 microcontrollers, \
+    which controlled the robots' movements in response to users' heart rates.\n\n" +
+    "Beyond developing the prototype, I led a small team of Ph.D. and master's students. \
+    Together, we translated the concept into an experimental study, designed the collaborative tasks and evaluation approach, \
+    and conducted the user study. We also presented the system through a live demonstration at CHI 2023."
   },
   {
     id: "openrbsync",
