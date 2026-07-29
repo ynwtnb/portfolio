@@ -1,6 +1,11 @@
 import React, { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 
 export default function ProjectRow({ project }) {
+  const isExternal = project.href && /^https?:\/\//.test(project.href);
+  const LinkComp = isExternal ? "a" : Link;
+  const linkProps = isExternal ? { href: project.href } : { to: project.href };
+
   const [showTag, setShowTag] = useState(
     () => typeof window !== "undefined" ? !window.matchMedia("(max-width: 640px)").matches : true
   );
@@ -23,7 +28,7 @@ export default function ProjectRow({ project }) {
   ) : null;
 
   const Title = project.href ? (
-    <a href={project.href}>{project.title}</a>
+    <LinkComp {...linkProps}>{project.title}</LinkComp>
   ) : (
     project.title
   );
@@ -38,9 +43,9 @@ export default function ProjectRow({ project }) {
   );
 
   const imageWrap = project.href ? (
-    <a className="project-row-image" href={project.href}>
+    <LinkComp className="project-row-image" {...linkProps}>
       {Image}
-    </a>
+    </LinkComp>
   ) : (
     <div className="project-row-image">{Image}</div>
   );
@@ -57,9 +62,9 @@ export default function ProjectRow({ project }) {
         <h3 className="project-row-title">{Title}</h3>
         <p className="project-row-desc">{project.summary}</p>
         {project.href ? (
-          <a className="project-row-cta" href={project.href}>
+          <LinkComp className="project-row-cta" {...linkProps}>
             Read more →
-          </a>
+          </LinkComp>
         ) : null}
       </div>
     </article>
