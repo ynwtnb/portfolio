@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Redirecting…</title>
+    <script>
+      // GitHub Pages serves this for any unknown path under /portfolio/.
+      // The app uses HashRouter, so translate the plain path into a hash route.
+      var base = "/portfolio/";
+      var path = window.location.pathname.slice(base.length);
+      window.location.replace(base + "#/" + path + window.location.search);
+    </script>
+  </head>
+  <body></body>
+</html>
