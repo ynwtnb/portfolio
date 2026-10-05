@@ -13,7 +13,7 @@ export default function ContactSection() {
 
       <div className="contact-contents">
         <ul className="contact-info">
-          <li>Yuna Watanabe</li>
+          <li>Yuna Naito (Watanabe)</li>
           <li>email: watanabe.y [at] northeastern.edu</li>
         </ul>
       </div>
