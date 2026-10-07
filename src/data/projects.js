@@ -21,7 +21,7 @@ export const projects = [
     status: "ongoing",
     labTag: { label: "Computational Behavioral Science Lab & UbiWell Lab", className: "lab-tag-CBSL-UW" },
     image: `${import.meta.env.BASE_URL}img/filter-optimization-concept.png`,
-    href: null,
+    href: "/ppg-filtering",
     summary: "Physiological signals collected with wearable devices need to be properly preprocessed to avoid impacts of artifacts. \
     However, the preprocessing steps and parameters vary across studies, and there is often no consensus on the optimal preprocessing pipeline. \
     To improve the accuracy, reliability, and validity of downstream analyses, we develop frameworks, algorithms, and tools for physiological signal preprocessing, \

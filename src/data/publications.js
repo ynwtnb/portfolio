@@ -5,9 +5,33 @@ export const MY_NAME_PATTERNS = [
   "Watanabe, Y.",
   "Y., Watanabe",
   "Y. Watanabe",
+  "Yuna Naito",
+  "Naito, Y.",
+  "Y., Naito",
+  "Y. Naito",
 ];
 
 export const publications = [
+  {
+    id: "ppg-filtering-2026",
+    title:
+      "A Context-Aware Framework for Optimal Filter Parameter Selection: Enhancing PRV Estimation in Wearable Wrist PPG Signals",
+    venue: "IMWUT",
+    year: 2026,
+    authors:
+      "Yuna Naito, Natasha Yamane, Aarti Sathyanarayana, Matthew S. Goodwin, and Varun Mishra.",
+    link: "https://dl.acm.org/doi/abs/10.1145/3831657",
+  },
+  {
+    id: "couple-co-design-2026",
+    title:
+      "Supporting Couples' Social Well-being in Daily Life: A Needs Assessment and Co-design with Co-located Couples",
+    venue: "UbiComp Companion '26",
+    year: 2026,
+    authors:
+      "Yuna Naito, Timothy Bickmore, Varun Mishra, and Matthew S. Goodwin",
+    link: "",
+  },
   {
     id: "point-process-modeling-2025",
     title:
@@ -22,7 +46,7 @@ export const publications = [
     id: "beyond-motion-artifacts-2025",
     title:
       "Beyond Motion Artifacts: Optimizing PPG Preprocessing for Accurate Pulse Rate Variability Estimation.",
-    venue: "Companion of the 2025 ACM International Joint Conference on Pervasive and Ubiquitous Computing",
+    venue: "UbiComp Companion '25",
     year: 2025,
     authors:
       "Yuna Watanabe, Natasha Yamane, Aarti Sathyanarayana, Varun Mishra, and Matthew S. Goodwin.",

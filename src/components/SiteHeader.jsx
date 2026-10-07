@@ -31,7 +31,7 @@ export default function SiteHeader({ variant = "home" }) {
   return (
     <header>
       <div className="header-title">
-        {isHome ? "Yuna Watanabe" : <a href="/">Yuna Watanabe</a>}
+        {isHome ? "Yuna Naito" : <a href="/">Yuna Naito</a>}
       </div>
       <nav className="header-content">
         <ul>

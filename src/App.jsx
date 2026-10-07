@@ -9,6 +9,7 @@ import Tleap from "./pages/Tleap.jsx";
 import VirtualCoembodiment from "./pages/VirtualCoembodiment.jsx";
 import Pseudo from "./pages/Pseudo.jsx";
 import Bdrum from "./pages/Bdrum.jsx";
+import PpgFiltering from "./pages/PpgFiltering.jsx";
 
 function NotFound() {
   return (
@@ -32,6 +33,7 @@ export default function App() {
       <Route path="/virtual-coembodiment" element={<VirtualCoembodiment />} />
       <Route path="/pseudo" element={<Pseudo />} />
       <Route path="/bdrum" element={<Bdrum />} />
+      <Route path="/ppg-filtering" element={<PpgFiltering />} />
 
       {/* Backward-compatible redirects (if someone hits old .html URLs) */}
       <Route path="/index.html" element={<Navigate to="/" replace />} />

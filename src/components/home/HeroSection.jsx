@@ -18,7 +18,7 @@ export default function HeroSection() {
             <img className="social-icon" src={`${import.meta.env.BASE_URL}img/github-icon.png`} alt="GitHub" />
             <span className="social-label">GitHub</span>
           </a>
-          <a className="social-link" href="https://www.linkedin.com/in/yuna-watanabe-15497a220/" target="_blank" rel="noreferrer">
+          <a className="social-link" href="https://www.linkedin.com/in/yuna-naito" target="_blank" rel="noreferrer">
             <img className="social-icon" src={`${import.meta.env.BASE_URL}img/linkedin-icon.png`} alt="LinkedIn" />
             <span className="social-label">LinkedIn</span>
           </a>
@@ -26,7 +26,7 @@ export default function HeroSection() {
       </div>
       
       <div className="first-v_text">
-        <div className="name">Yuna Watanabe</div>
+        <div className="name">Yuna Naito (Watanabe)</div>
         <hr className="name-line" />
         <div className="first-v_profile">
           <div className="aboutme">
