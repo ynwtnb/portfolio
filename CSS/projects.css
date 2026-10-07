@@ -21,6 +21,7 @@ body{
 /* header */
 header{
     position: fixed;
+    z-index: 50; /* keep the fixed header above page content (matches style.css) */
     background-color: #BBAFA3;
     outline: none;
     width: 100%;
