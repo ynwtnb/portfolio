@@ -10,6 +10,7 @@ import VirtualCoembodiment from "./pages/VirtualCoembodiment.jsx";
 import Pseudo from "./pages/Pseudo.jsx";
 import Bdrum from "./pages/Bdrum.jsx";
 import PpgFiltering from "./pages/PpgFiltering.jsx";
+import Quals from "./pages/Quals.jsx";
 
 function NotFound() {
   return (
@@ -34,6 +35,7 @@ export default function App() {
       <Route path="/pseudo" element={<Pseudo />} />
       <Route path="/bdrum" element={<Bdrum />} />
       <Route path="/ppg-filtering" element={<PpgFiltering />} />
+      <Route path="/quals" element={<Quals />} />
 
       {/* Backward-compatible redirects (if someone hits old .html URLs) */}
       <Route path="/index.html" element={<Navigate to="/" replace />} />
