@@ -1,0 +1,201 @@
+/* Scoped styles for the internal /quals page. Simple, document-like. */
+.quals {
+  --ink: #262626;
+  --ink-2: #5d5a56;
+  --ink-3: #8a8782;
+  --rule: #e6e2dc;
+  --accent: #0a809e;
+  --heading: #b4536a;
+  --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 64px 20px 56px;
+  color: var(--ink);
+  font-family: "Source Serif 4", Georgia, serif;
+  font-size: 17px;
+  line-height: 1.65;
+}
+
+.quals a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.quals a:hover {
+  background: none;
+  color: var(--accent);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.quals p {
+  margin: 0 0 12px;
+}
+
+/* ---------- header ---------- */
+.quals-head {
+  padding-bottom: 24px;
+  border-bottom: 1px solid var(--ink);
+}
+
+.quals-kicker {
+  margin: 0 !important;
+  color: var(--ink-3);
+  font-family: var(--sans);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.quals h1 {
+  margin: 4px 0 16px;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.quals-toc {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 24px;
+  font-family: var(--sans);
+  font-size: 14px;
+}
+
+/* ---------- sections ---------- */
+.quals section {
+  padding-top: 48px;
+  scroll-margin-top: 8px;
+}
+
+.quals section + section {
+  margin-top: 16px;
+}
+
+.quals h2 {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  margin: 0 0 20px;
+  padding: 2px 0 2px 14px;
+  border-left: 4px solid var(--heading);
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.25;
+}
+
+.quals-num {
+  color: var(--heading);
+  font-family: var(--sans);
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.quals h3 {
+  margin: 32px 0 8px;
+  color: var(--heading);
+  font-family: var(--sans);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.quals-paper-title {
+  margin-bottom: 4px !important;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.quals-authors {
+  color: var(--ink-2);
+  font-size: 16px;
+}
+
+.quals-authors strong {
+  color: var(--ink);
+  font-weight: 600;
+}
+
+/* ---------- facts ---------- */
+.quals-facts {
+  margin: 20px 0 0;
+  border-top: 1px solid var(--rule);
+}
+
+.quals-facts > div {
+  display: grid;
+  grid-template-columns: 160px 1fr;
+  gap: 16px;
+  padding: 10px 0;
+  border-bottom: 1px solid var(--rule);
+}
+
+.quals-facts dt {
+  color: var(--ink-3);
+  font-family: var(--sans);
+  font-size: 13px;
+  line-height: 1.7;
+}
+
+.quals-facts dd {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.quals-muted {
+  display: block;
+  color: var(--ink-2);
+  font-size: 14px;
+}
+
+/* ---------- quote ---------- */
+.quals-quote {
+  margin: 0;
+  padding-left: 20px;
+  border-left: 2px solid var(--accent);
+}
+
+.quals-quote cite {
+  display: block;
+  color: var(--ink-2);
+  font-family: var(--sans);
+  font-size: 14px;
+  font-style: normal;
+}
+
+.quals-tbd {
+  display: inline-block;
+  padding: 0 6px;
+  border-radius: 4px;
+  background: #f6e1d4;
+  color: #8a3d14;
+  font-family: var(--sans);
+  font-size: 13px;
+}
+
+.quals-footer {
+  margin-top: 64px;
+  padding-top: 16px;
+  border-top: 1px solid var(--rule);
+  color: var(--ink-3);
+  font-family: var(--sans);
+  font-size: 13px;
+}
+
+@media (max-width: 560px) {
+  .quals {
+    padding-top: 40px;
+  }
+  .quals h1 {
+    font-size: 30px;
+  }
+  .quals-facts > div {
+    grid-template-columns: 1fr;
+    gap: 2px;
+  }
+}
