@@ -30,7 +30,7 @@ export default function HeroSection() {
         <hr className="name-line" />
         <div className="first-v_profile">
           <div className="aboutme">
-            I am a Ph.D. student in the{" "}
+            I am a Ph.D. candidate in the{" "}
             <a href="https://phi.khoury.northeastern.edu/">
               Personal Health Informatics Program
             </a>{" "}

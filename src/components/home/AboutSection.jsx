@@ -20,7 +20,7 @@ export default function AboutSection() {
             <br />
             <ul className="eng-profile">
               <li>
-                Ph.D. student at Computational Behavioral Science Laboratory,
+                Ph.D. candidate at Computational Behavioral Science Laboratory,
                 advised by Professor{" "}
                 <a href="https://www.khoury.northeastern.edu/people/matthew-goodwin/">
                   Matthew Goodwin
